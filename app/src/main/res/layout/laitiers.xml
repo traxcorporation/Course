@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dff6caa"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:src="@drawable/laitiersplan"
+            android:layout_marginTop="3px"
+            />
+
+
+    </LinearLayout>
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/lait"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/lait"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/laitchocolat"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/laitchocolat"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/laitfraise"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/laitfraise"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/laitvanillesoja"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/laitvanillesoja"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/yaourh"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/yaourh"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/yaourh1"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/yaourh1"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:id="@id/Save"
+        android:layout_marginTop="10px"
+        />
+
+
+</LinearLayout>

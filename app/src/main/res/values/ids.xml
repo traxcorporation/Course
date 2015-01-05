@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Save" type="id">Save</item>
+    <item name="progressBarpbar" type="id">idtest</item>
+    <item name="progressBarsync4" type="id">idprogres</item>
+    <item name="bieres" type="id" />
+    <item name="action_settings" type="id">hr</item>
+</resources>

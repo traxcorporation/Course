@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dff6caa"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:src="@drawable/poissonerieplan"
+            android:layout_marginTop="3px"
+            />
+
+
+    </LinearLayout>
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/cabillaud1"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/cabillaud1"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/colin"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/colin"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/saumon"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/saumon"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/poissonpane"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/poissonpane"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/surimi"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/surimi"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/crevettes"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/crevettes"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/thon"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/thon"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enregistrer"
+        android:id="@id/Save"
+        android:layout_marginTop="10px"
+        />
+
+
+</LinearLayout>
+

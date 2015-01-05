@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LISTE DE COURSE</string>
+    <string name="action_settings">Settings</string>
+    <string name="Fruits">fruits</string>
+    <string name="Laitiers">laitiers</string>
+    <string name="Legumes">legumes</string>
+    <string name="Boucherie">boucherie</string>
+    <string name="Poissonerie">poissonnerie</string>
+    <string name="Boulangerie">boulangerie</string>
+    <string name="Charcuterie">charcuterie</string>
+    <string name="image1">image1</string>
+    <string name="Démarrer">Démarrer</string>
+    <string name="Enregistrer">enregistrer</string>
+    <string name="VoirPanier">Voir Panier</string>
+    <string name="bieres">Bieres</string>
+    <string name="about">about</string>
+    <string name="contacts">contacts</string>
+    <string name="showAsAction">actions</string>
+    <string name="showAsActiosn">actiones</string>
+    <string name="action_search">search</string>
+
+
+</resources>

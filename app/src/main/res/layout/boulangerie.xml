@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dff6caa"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:src="@drawable/encoreboulangerie"
+            android:layout_marginTop="3px"
+            />
+
+
+    </LinearLayout>
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/baguette"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/baguette"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/paindemie"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/paindemie"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/paincomplet"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/paincomplet"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/pains"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/pains"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/brioche"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/brioche"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/biscottes"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/biscottes"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/paindeseigle"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/paindeseigle"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enregistrer"
+        android:id="@id/Save"
+        android:layout_marginTop="10px"
+        />
+
+
+</LinearLayout>

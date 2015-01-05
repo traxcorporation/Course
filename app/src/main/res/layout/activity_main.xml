@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9952ff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Fruits"
+        android:id="@+id/fruit"
+        android:onClick="onClickButton"
+        android:layout_marginTop="2dp"
+
+        />
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Laitiers"
+        android:id="@+id/laitiers"
+        android:layout_marginTop="2dp"
+
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Legumes"
+        android:id="@+id/legume"
+        android:layout_marginTop="2dp"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Boucherie"
+        android:id="@+id/boucherie"
+        android:layout_marginTop="2dp"
+
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Poissonerie"
+        android:id="@+id/poissonerie"
+        android:layout_marginTop="2dp"
+
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Boulangerie"
+        android:id="@+id/boulangerie"
+        android:layout_marginTop="2dp"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Charcuterie"
+        android:id="@+id/charcuterie"
+        android:layout_marginTop="2dp"
+
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VoirPanier"
+        android:id="@+id/panier"
+        android:layout_marginTop="2dp"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bieres"
+        android:id="@+id/bieres"
+        android:layout_marginTop="2dp"/>
+
+
+
+</LinearLayout>

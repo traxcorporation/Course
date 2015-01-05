@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dff6caa"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:src="@drawable/banniereboucherie"
+            android:layout_marginTop="3px"
+            />
+
+
+    </LinearLayout>
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/cotedechine"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/cotedechine"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/viandechevre"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/viandechevre"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/saucsson"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/saucsson"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/viandeboeuf"
+            android:layout_marginTop="3px"
+            />
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/viandeboeuf"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/viandehachee"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/viandehachee"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/viandemouton"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/viandemouton"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/viandeporc"
+            android:layout_marginTop="3px"
+            />
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:id="@+id/viandeporc"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3px"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:id="@id/Save"
+        android:layout_marginTop="10px"
+        />
+
+
+</LinearLayout>
